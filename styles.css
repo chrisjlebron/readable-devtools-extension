@@ -53,6 +53,10 @@ body.platform-mac .monospace, body.platform-mac .source-code {
   color: #444 !important;
 }
 
+#-blink-dev-tools .toolbar-background {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(233, 233, 233)), to(rgb(207, 207, 207)));
+}
+
 /*  Html inspect area
 ------------------------------------------------*/
 #elements-content * {
