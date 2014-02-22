@@ -305,13 +305,14 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 }
 
 #-blink-dev-tools .split-view-contents-second .tabbed-pane-header-tab.selected {
-    background: #fff !important;
+    /*background: #fff !important;*/
   /*-webkit-border-image: none !important;*/
 }
 
 
 #-blink-dev-tools .tabbed-pane-header-tab {
-  font-size: 13px;
+  /* Need to comment this for now, makes labels unreadable */
+  /*font-size: 13px;*/
 }
 
 #-blink-dev-tools .split-view-sidebar-right .webkit-css-property {
