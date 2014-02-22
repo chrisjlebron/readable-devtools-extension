@@ -1,5 +1,5 @@
 {
-  "name": "CJL-readable-fork",
+  "name": "CJL-Readable-fork",
   "version": "0.0.1",
   "description": "Enable DevTools experiments in about:flags, toggle \"Allow UI themes\" experiment in DevTools tab.",
   "devtools_page": "devtools.html",
