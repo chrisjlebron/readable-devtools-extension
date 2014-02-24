@@ -109,7 +109,7 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 
 /* current select line style */
 #-blink-dev-tools .elements .selected {
-    background: #FAD165 !important;
+    background: #FAD165;
     border: 0 !important;
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.3);
     color: #000 !important;
@@ -317,6 +317,10 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 #-blink-dev-tools .tabbed-pane-header-tab {
   /* Need to comment this for now, makes labels unreadable */
   /*font-size: 13px;*/
+}
+
+#-blink-dev-tools .sidebar-tabbed-pane .tabbed-pane-header-tab.selected {
+    background: #fff;
 }
 
 #-blink-dev-tools .split-view-sidebar-right .webkit-css-property {
