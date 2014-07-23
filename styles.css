@@ -141,6 +141,14 @@ body.platform-mac .monospace, body.platform-mac .source-code {
     /*border-top: 2px solid #7d349d !important;*/
 }
 
+#-blink-dev-tools .outline-disclosure li.hovered:not(.selected) .selection {
+    display: block;
+    left: 3px;
+    right: 3px;
+    background: rgba(56, 121, 217, 0.1);
+    border-radius: 5px;
+}
+
 
 /*  ------------------------------------------------
  *  End of Html inspect area /
